@@ -17,9 +17,11 @@ build() {
 	if [ ! -d "service/${project}" ]
 	then
         cp -R code/${project}/output service/${project}
+        cp service/.gitkeep service/${project}/${project}_log/
 	else
         rm -rf service/${project}
         cp -R code/${project}/output service/${project}
+        cp service/.gitkeep service/${project}/${project}_log/
 	fi
 	echo "${project} build finish!"
 }
