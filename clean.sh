@@ -1,15 +1,15 @@
 project=$1
 
 clean() {
-    if [ -d "code/${project}" ]
+	if [ -d "code/${project}" ]
 	then
-        rm -r code/${project}
+		rm -r code/${project}
 	fi
 	echo "${project} code removed..."
 
 	if [ -d "service/${project}" ]
 	then
-        rm -r service/${project}
+		rm -r service/${project}
 	fi
 	echo "${project} remove finish!"
 }
