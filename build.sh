@@ -1,12 +1,12 @@
 project=$1
 
 build() {
-   	if [ ! -d "code/${project}" ]
+	if [ ! -d "code/${project}" ]
 	then
-   		git clone git@github.com:pomo16/${project}.git code/${project}
+		git clone git@github.com:pomo16/${project}.git code/${project}
 	else
-        	rm -rf code/${project}
-       		git clone git@github.com:pomo16/${project}.git code/${project}
+		rm -rf code/${project}
+		git clone git@github.com:pomo16/${project}.git code/${project}
 	fi
 	echo "${project} code ready..."
 

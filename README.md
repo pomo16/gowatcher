@@ -16,6 +16,12 @@ This repo is gowatcher's workspace, which help to deploy the project to the serv
 
 
 
+##### sh push.sh + ${project}
+
++ This script will push this repo to github.
+
+
+
 ##### Projects
 
 - [go_spider](https://github.com/pomo16/go_spider)
