@@ -16,7 +16,7 @@ This repo is gowatcher's workspace, which help to deploy the project to the serv
 
 
 
-##### sh push.sh + ${project}
+##### sh push.sh + ${commit}
 
 + This script will push this repo to github.
 
