@@ -10,3 +10,6 @@ redis:
   host: localhost
   port: 6379
   password: redis9898008
+elasticsearch:
+  host: 101.132.150.8
+  port: 9200
