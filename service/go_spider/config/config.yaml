@@ -1,6 +1,6 @@
 mysql:
   username: root
-  password: 123456
+  password: Mysql123456/
   host: 134.175.33.133
   port: 3306
 kafka:
