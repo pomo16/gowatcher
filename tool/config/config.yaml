@@ -1,0 +1,3 @@
+elasticsearch:
+  host: 101.132.150.8
+  port: 9200
