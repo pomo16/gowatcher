@@ -16,9 +16,11 @@ This repo is gowatcher's workspace, which help to deploy the project to the serv
 
 
 
-##### sh push.sh + ${commit}
+Due to the slow download speed of Alibaba cloud and the gojieba does not support cross compilation, git method will be abandoned.
 
-+ This script will push this repo to github.
+##### ~~sh push.sh + ${commit}~~
+
++ ~~This script will push this repo to github.~~
 
 
 
